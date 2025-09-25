@@ -1,0 +1,67 @@
+body {
+    background-color: darkkhaki;
+}
+
+/* Inicio */
+
+#cabecalho {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    background-color: rgb(226, 243, 70);
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente */
+    padding: 10px;
+}
+
+#cabecalho li {
+    list-style-type: none;
+    /* Remove bolinha */
+}
+
+#cabecalho a {
+    text-decoration: none;
+    /* Remove sublinhado */
+    color: black;
+    display: flex;
+    /* Diminui o Espacamento */
+}
+
+/* Tamanhos diferentes */
+#cabecalho .grande {
+    font-size: 100%;
+    font-weight: bold;
+    /* Deixa em Negrito */
+}
+
+#cabecalho .pequeno {
+    font-size: 30%;
+}
+
+#cabecalho img {
+    width: 140px;
+    height: auto;
+}
+
+#meio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: rgb(226, 243, 70);
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente */
+    padding: 10px;
+}
+
+#meio li {
+    list-style-type: none;
+    /* Remove bolinha */
+}
+
+#meio a {
+    text-decoration: none;
+    /* Remove sublinhado */
+    color: black;
+    display: flex;
+    /* Diminui o Espacamento */
+}
